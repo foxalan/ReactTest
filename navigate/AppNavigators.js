@@ -9,9 +9,10 @@ export const AppStackNavigator = StackNavigator({
     },
     Page1:{
         screen:Page1,
-        navigationOptions:{
-            header:null,
-        }
+        navigationOptions:({navigation}) => ({
+            title:'${navigation.state.params.name }页面名'
+        })
+
     },
     Page2:{
         screen:Page2,

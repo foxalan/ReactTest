@@ -7,9 +7,7 @@ export default class Page1 extends React.Component {
         super(props);
     }
 
-    static navigationOptions = {
-        title: 'Welcome',
-    };
+
 
     render() {
 

@@ -2,7 +2,6 @@ import React from 'react';
 import {StyleSheet, Text, View, Image, AppRegistry, Button} from 'react-native';
 
 
-
 export default class HomePage extends React.Component {
 
 
@@ -22,7 +21,7 @@ export default class HomePage extends React.Component {
             <View style={styles.container}>
                 <Text>Hello, Home page App!</Text>
                 <Button
-                    onPress={() => navigation.navigate('Page1')}
+                    onPress={() => navigation.navigate('Page1', {name: '动态的'})}
                     title="go to page1"
                 />
 
