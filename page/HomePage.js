@@ -21,13 +21,27 @@ export default class HomePage extends React.Component {
             <View style={styles.container}>
                 <Text>Hello, Home page App!</Text>
                 <Button
+                    style={styles.button}
                     onPress={() => navigation.navigate('Page1', {name: '动态的'})}
                     title="go to page1"
                 />
 
                 <Button
+                    style={styles.button}
                     onPress={() => navigation.navigate('Page2')}
                     title="go to page2"
+                />
+
+                <Button
+                    style={styles.button}
+                    onPress={() => navigation.navigate('Page3')}
+                    title="go to page2"
+                />
+
+                <Button
+                    style={styles.button}
+                    onPress={() => navigation.navigate('TabBar')}
+                    title="go to TabPage"
                 />
             </View>
         );
@@ -48,6 +62,13 @@ const styles = StyleSheet.create({
     page2: {
         flex: 1,
         backgroundColor: 'yellow',
+    },
+    button:{
+        height: 44,
+        width: 100,
+        marginTop: 10,
+        marginBottom: 10,
+
     },
     image: {
         height: 22,

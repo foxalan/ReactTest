@@ -1,4 +1,4 @@
-import {AppStackNavigator} from "./navigate/AppNavigators";
+import {AppStackNavigator,AppTabNavigator} from "./navigate/AppNavigators";
 
 export default AppStackNavigator;
 
