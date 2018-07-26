@@ -61,12 +61,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1416" />
+          <entry key="js" value="1734" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1416" />
+          <entry key="JavaScript" value="1734" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigate/AppNavigators.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -150,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page/Page2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="450">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -217,12 +217,12 @@
         <option value="$PROJECT_DIR$/Three.js" />
         <option value="$PROJECT_DIR$/HomeScreen.js" />
         <option value="$PROJECT_DIR$/App.test.js" />
-        <option value="$PROJECT_DIR$/page/Page2.js" />
         <option value="$PROJECT_DIR$/page/Page1.js" />
         <option value="$PROJECT_DIR$/page/Page3.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/page/HomePage.js" />
         <option value="$PROJECT_DIR$/navigate/AppNavigators.js" />
+        <option value="$PROJECT_DIR$/page/Page2.js" />
       </list>
     </option>
   </component>
@@ -242,9 +242,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="265" />
-    <option name="y" value="201" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="427" />
+    <option name="y" value="243" />
     <option name="width" value="1342" />
     <option name="height" value="1066" />
   </component>
@@ -313,18 +313,18 @@
       <workItem from="1532480466611" duration="3498000" />
       <workItem from="1532484009646" duration="14002000" />
       <workItem from="1532505682271" duration="7012000" />
-      <workItem from="1532567398894" duration="4036000" />
+      <workItem from="1532567398894" duration="6321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28548000" />
+    <option name="totallyTimeSpent" value="30833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="427" y="243" width="1342" height="1066" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11169652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257669" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -422,26 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/Page1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="30" selection-end-line="43" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/Page2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/Page3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
@@ -475,6 +455,26 @@
           <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/Page1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="30" selection-end-line="43" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/Page2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
