@@ -1,63 +1,62 @@
 import {StackNavigator, TabNavigator} from 'react-navigation'
 import HomePage from "../page/HomePage"
-import Page1 from "../page/Page1"
+import Popular from "../page/Popular"
 import Page2 from "../page/Page2"
 import Page3 from "../page/Page3"
 import Ioicons from 'react-native-vector-icons/Ionicons'
 import React from "react";
+import WelcomePage from '../page/launcher/WelcomePage'
 
 export const AppTabNavigator = TabNavigator({
 
-    Page1: {
-        screen: Page1,
-        navigationOptions:{
-            tabBarLabel:'Page1',
-            tabBarIcon:({tintColor,focused})=>(
-                <Ioicons
-                    name={focused?'android-home':'android-home-outline'}
-                    size={26}
-                    style={{color:tintColor}}
-                />
-            )
+    Popular: {
+        screen: Popular,
+        navigationOptions: {
+            tabBarLabel: '最热',
+            navigationOptions: {
+                title: '最热',
+                leftButtonIcon: 'none',
+            }
         }
     },
     Page2: {
-        screen: Page1,
-        navigationOptions:{
-            tabBarLabel:'Page1',
-            tabBarIcon:({tintColor,focused})=>(
+        screen: Popular,
+        navigationOptions: {
+            tabBarLabel: 'Page2',
+            tabBarIcon: ({tintColor, focused}) => (
                 <Ioicons
-                    name={focused?'android-home':'android-home-outline'}
+                    name={focused ? 'android-home' : 'android-home-outline'}
                     size={26}
-                    style={{color:tintColor}}
+                    style={{color: tintColor}}
                 />
             )
         }
     },
     Page3: {
-        screen: Page1,
-        navigationOptions:{
-            tabBarLabel:'Page1',
-            tabBarIcon:({tintColor,focused})=>(
+        screen: Popular,
+        navigationOptions: {
+            tabBarLabel: 'Page3',
+            tabBarIcon: ({tintColor, focused}) => (
                 <Ioicons
-                    name={focused?'android-home':'android-home-outline'}
+                    name={focused ? 'android-home' : 'android-home-outline'}
                     size={26}
-                    style={{color:tintColor}}
+                    style={{color: tintColor}}
                 />
             )
         }
     },
-
-
-
 })
 
 export const AppStackNavigator = StackNavigator({
+
+    WelcomePage: {
+        screen: WelcomePage
+    },
     HomePage: {
         screen: HomePage
     },
     Page1: {
-        screen: Page1,
+        screen: Popular,
         navigationOptions: ({navigation}) => ({
             title: '${navigation.state.params.name }页面名'
         })
@@ -77,8 +76,8 @@ export const AppStackNavigator = StackNavigator({
             }
         }
     },
-    TabBar:{
-        screen:AppTabNavigator,
+    TabBar: {
+        screen: AppTabNavigator,
     }
 
 })

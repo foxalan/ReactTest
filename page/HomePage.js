@@ -19,11 +19,10 @@ export default class HomePage extends React.Component {
 
         return (
             <View style={styles.container}>
-                <Text>Hello, Home page App!</Text>
                 <Button
                     style={styles.button}
-                    onPress={() => navigation.navigate('Page1', {name: '动态的'})}
-                    title="go to page1"
+                    onPress={() => navigation.navigate('Popular')}
+                    title="最热"
                 />
 
                 <Button
@@ -68,6 +67,7 @@ const styles = StyleSheet.create({
         width: 100,
         marginTop: 10,
         marginBottom: 10,
+        padding: 5,
 
     },
     image: {
