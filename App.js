@@ -1,6 +1,17 @@
-import {AppStackNavigator,AppTabNavigator} from "./navigate/AppNavigators";
-import setup from "./js/launcher/setup"
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
 
-export default setup();
+import React, {Component} from 'react';
+import {
+    AppRegistry,
+} from 'react-native';
+import setup from './js/page/setup'
+
+export default setup;
+
+
 
 
