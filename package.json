@@ -20,8 +20,10 @@
   },
   "dependencies": {
     "expo": "^27.0.1",
+    "prop-types": "^15.6.2",
     "react": "16.3.1",
     "react-native": "~0.55.2",
+    "react-native-code-push": "^5.4.0",
     "react-native-deprecated-custom-components": "^0.1.2",
     "react-native-easy-toast": "^1.1.0",
     "react-native-scrollable-tab-view": "^0.8.0",
