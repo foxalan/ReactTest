@@ -28,19 +28,21 @@ export default class NavigatorUtil {
      */
     static resetToHomePage(params) {
         const {navigation, theme, selectedTab} = params;
-        const resetAction = NavigationActions.reset({
-            index: 0,
-            actions: [
-                NavigationActions.navigate({
-                    routeName: "HomePage",
-                    params: {
-                        theme: theme,
-                        selectedTab: selectedTab
-                    }
-                })
-            ]
-        });
-        navigation.dispatch(resetAction);
+        // const resetAction = NavigationActions.reset({
+        //     index: 0,
+        //     actions: [
+        //         NavigationActions.navigate({
+        //             routeName: "HomePage",
+        //             params: {
+        //                 theme: theme,
+        //                 selectedTab: selectedTab
+        //             }
+        //         })
+        //     ]
+        // });
+        //    navigation.dispatch(resetAction);
+
+        navigation.navigate('HomePage');
     }
 
     /**

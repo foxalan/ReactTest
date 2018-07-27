@@ -1,6 +1,7 @@
 import React from 'react'
 import {StackNavigator} from 'react-navigation';
 import WelcomePage from '../page/WelcomePage'
+import HomePage from '../page/HomePage'
 
 
 export const AppNavigator = StackNavigator({
@@ -8,6 +9,12 @@ export const AppNavigator = StackNavigator({
         screen:WelcomePage,
         navigationOptions:{
             title:'Welcome',
+        }
+    },
+    HomePage:{
+        screen:HomePage,
+        navigationOptions:{
+            title:'HomePage',
         }
     }
 
